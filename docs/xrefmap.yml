@@ -1,0 +1,642 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FrizzLib.CLI
+  name: FrizzLib.CLI
+  href: api/FrizzLib.CLI.html
+  commentId: N:FrizzLib.CLI
+  fullName: FrizzLib.CLI
+  nameWithType: FrizzLib.CLI
+- uid: FrizzLib.CLI.CLI
+  name: CLI
+  href: api/FrizzLib.CLI.CLI.html
+  commentId: T:FrizzLib.CLI.CLI
+  fullName: FrizzLib.CLI.CLI
+  nameWithType: CLI
+- uid: FrizzLib.CLI.CLI.ProgressBar_Start(System.Int32)
+  name: ProgressBar_Start(int)
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Start_System_Int32_
+  commentId: M:FrizzLib.CLI.CLI.ProgressBar_Start(System.Int32)
+  name.vb: ProgressBar_Start(Integer)
+  fullName: FrizzLib.CLI.CLI.ProgressBar_Start(int)
+  fullName.vb: FrizzLib.CLI.CLI.ProgressBar_Start(Integer)
+  nameWithType: CLI.ProgressBar_Start(int)
+  nameWithType.vb: CLI.ProgressBar_Start(Integer)
+- uid: FrizzLib.CLI.CLI.ProgressBar_Start*
+  name: ProgressBar_Start
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Start_
+  commentId: Overload:FrizzLib.CLI.CLI.ProgressBar_Start
+  fullName: FrizzLib.CLI.CLI.ProgressBar_Start
+  nameWithType: CLI.ProgressBar_Start
+- uid: FrizzLib.CLI.CLI.ProgressBar_Stop
+  name: ProgressBar_Stop()
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Stop
+  commentId: M:FrizzLib.CLI.CLI.ProgressBar_Stop
+  fullName: FrizzLib.CLI.CLI.ProgressBar_Stop()
+  nameWithType: CLI.ProgressBar_Stop()
+- uid: FrizzLib.CLI.CLI.ProgressBar_Stop*
+  name: ProgressBar_Stop
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Stop_
+  commentId: Overload:FrizzLib.CLI.CLI.ProgressBar_Stop
+  fullName: FrizzLib.CLI.CLI.ProgressBar_Stop
+  nameWithType: CLI.ProgressBar_Stop
+- uid: FrizzLib.CLI.CLI.Prompt(System.String)
+  name: Prompt(string)
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_
+  commentId: M:FrizzLib.CLI.CLI.Prompt(System.String)
+  name.vb: Prompt(String)
+  fullName: FrizzLib.CLI.CLI.Prompt(string)
+  fullName.vb: FrizzLib.CLI.CLI.Prompt(String)
+  nameWithType: CLI.Prompt(string)
+  nameWithType.vb: CLI.Prompt(String)
+- uid: FrizzLib.CLI.CLI.Prompt(System.String,System.String)
+  name: Prompt(string, string)
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_System_String_
+  commentId: M:FrizzLib.CLI.CLI.Prompt(System.String,System.String)
+  name.vb: Prompt(String, String)
+  fullName: FrizzLib.CLI.CLI.Prompt(string, string)
+  fullName.vb: FrizzLib.CLI.CLI.Prompt(String, String)
+  nameWithType: CLI.Prompt(string, string)
+  nameWithType.vb: CLI.Prompt(String, String)
+- uid: FrizzLib.CLI.CLI.Prompt(System.String,System.String,System.Boolean)
+  name: Prompt(string, string, bool)
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_System_String_System_Boolean_
+  commentId: M:FrizzLib.CLI.CLI.Prompt(System.String,System.String,System.Boolean)
+  name.vb: Prompt(String, String, Boolean)
+  fullName: FrizzLib.CLI.CLI.Prompt(string, string, bool)
+  fullName.vb: FrizzLib.CLI.CLI.Prompt(String, String, Boolean)
+  nameWithType: CLI.Prompt(string, string, bool)
+  nameWithType.vb: CLI.Prompt(String, String, Boolean)
+- uid: FrizzLib.CLI.CLI.Prompt*
+  name: Prompt
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_
+  commentId: Overload:FrizzLib.CLI.CLI.Prompt
+  fullName: FrizzLib.CLI.CLI.Prompt
+  nameWithType: CLI.Prompt
+- uid: FrizzLib.CLI.CLI.WriteHeading(System.String)
+  name: WriteHeading(string)
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_WriteHeading_System_String_
+  commentId: M:FrizzLib.CLI.CLI.WriteHeading(System.String)
+  name.vb: WriteHeading(String)
+  fullName: FrizzLib.CLI.CLI.WriteHeading(string)
+  fullName.vb: FrizzLib.CLI.CLI.WriteHeading(String)
+  nameWithType: CLI.WriteHeading(string)
+  nameWithType.vb: CLI.WriteHeading(String)
+- uid: FrizzLib.CLI.CLI.WriteHeading*
+  name: WriteHeading
+  href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_WriteHeading_
+  commentId: Overload:FrizzLib.CLI.CLI.WriteHeading
+  fullName: FrizzLib.CLI.CLI.WriteHeading
+  nameWithType: CLI.WriteHeading
+- uid: FrizzLib.CLI.Pickers
+  name: FrizzLib.CLI.Pickers
+  href: api/FrizzLib.CLI.Pickers.html
+  commentId: N:FrizzLib.CLI.Pickers
+  fullName: FrizzLib.CLI.Pickers
+  nameWithType: FrizzLib.CLI.Pickers
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1
+  name: ItemPicker<T>
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html
+  commentId: T:FrizzLib.CLI.Pickers.ItemPicker`1
+  name.vb: ItemPicker(Of T)
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T)
+  nameWithType: ItemPicker<T>
+  nameWithType.vb: ItemPicker(Of T)
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
+  name: ItemPicker()
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1__ctor
+  commentId: M:FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
+  name.vb: New()
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemPicker()
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).New()
+  nameWithType: ItemPicker<T>.ItemPicker()
+  nameWithType.vb: ItemPicker(Of T).New()
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.#ctor*
+  name: ItemPicker
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1__ctor_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
+  name.vb: New
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemPicker
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).New
+  nameWithType: ItemPicker<T>.ItemPicker
+  nameWithType.vb: ItemPicker(Of T).New
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading
+  name: BatchHeading
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_BatchHeading
+  commentId: P:FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.BatchHeading
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).BatchHeading
+  nameWithType: ItemPicker<T>.BatchHeading
+  nameWithType.vb: ItemPicker(Of T).BatchHeading
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading*
+  name: BatchHeading
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_BatchHeading_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.BatchHeading
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).BatchHeading
+  nameWithType: ItemPicker<T>.BatchHeading
+  nameWithType.vb: ItemPicker(Of T).BatchHeading
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.HelpMessage
+  name: HelpMessage
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_HelpMessage
+  commentId: P:FrizzLib.CLI.Pickers.ItemPicker`1.HelpMessage
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.HelpMessage
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).HelpMessage
+  nameWithType: ItemPicker<T>.HelpMessage
+  nameWithType.vb: ItemPicker(Of T).HelpMessage
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.HelpMessage*
+  name: HelpMessage
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_HelpMessage_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.HelpMessage
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.HelpMessage
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).HelpMessage
+  nameWithType: ItemPicker<T>.HelpMessage
+  nameWithType.vb: ItemPicker(Of T).HelpMessage
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.IsAUserAllowedResponse(System.String)
+  name: IsAUserAllowedResponse(string?)
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_IsAUserAllowedResponse_System_String_
+  commentId: M:FrizzLib.CLI.Pickers.ItemPicker`1.IsAUserAllowedResponse(System.String)
+  name.vb: IsAUserAllowedResponse(String)
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.IsAUserAllowedResponse(string?)
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).IsAUserAllowedResponse(String)
+  nameWithType: ItemPicker<T>.IsAUserAllowedResponse(string?)
+  nameWithType.vb: ItemPicker(Of T).IsAUserAllowedResponse(String)
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.IsAUserAllowedResponse*
+  name: IsAUserAllowedResponse
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_IsAUserAllowedResponse_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.IsAUserAllowedResponse
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.IsAUserAllowedResponse
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).IsAUserAllowedResponse
+  nameWithType: ItemPicker<T>.IsAUserAllowedResponse
+  nameWithType.vb: ItemPicker(Of T).IsAUserAllowedResponse
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.ItemFormatter(`0)
+  name: ItemFormatter(T)
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_ItemFormatter__0_
+  commentId: M:FrizzLib.CLI.Pickers.ItemPicker`1.ItemFormatter(`0)
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemFormatter(T)
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).ItemFormatter(T)
+  nameWithType: ItemPicker<T>.ItemFormatter(T)
+  nameWithType.vb: ItemPicker(Of T).ItemFormatter(T)
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.ItemFormatter*
+  name: ItemFormatter
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_ItemFormatter_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.ItemFormatter
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemFormatter
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).ItemFormatter
+  nameWithType: ItemPicker<T>.ItemFormatter
+  nameWithType.vb: ItemPicker(Of T).ItemFormatter
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.PickItem(`0[],System.Int32)
+  name: PickItem(T[], int)
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_PickItem__0___System_Int32_
+  commentId: M:FrizzLib.CLI.Pickers.ItemPicker`1.PickItem(`0[],System.Int32)
+  name.vb: PickItem(T(), Integer)
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.PickItem(T[], int)
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).PickItem(T(), Integer)
+  nameWithType: ItemPicker<T>.PickItem(T[], int)
+  nameWithType.vb: ItemPicker(Of T).PickItem(T(), Integer)
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.PickItem*
+  name: PickItem
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_PickItem_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.PickItem
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.PickItem
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).PickItem
+  nameWithType: ItemPicker<T>.PickItem
+  nameWithType.vb: ItemPicker(Of T).PickItem
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterBatch
+  name: Prompt_AfterBatch
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterBatch
+  commentId: P:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterBatch
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterBatch
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterBatch
+  nameWithType: ItemPicker<T>.Prompt_AfterBatch
+  nameWithType.vb: ItemPicker(Of T).Prompt_AfterBatch
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterBatch*
+  name: Prompt_AfterBatch
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterBatch_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterBatch
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterBatch
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterBatch
+  nameWithType: ItemPicker<T>.Prompt_AfterBatch
+  nameWithType.vb: ItemPicker(Of T).Prompt_AfterBatch
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterFinalBatch
+  name: Prompt_AfterFinalBatch
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterFinalBatch
+  commentId: P:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterFinalBatch
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterFinalBatch
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterFinalBatch
+  nameWithType: ItemPicker<T>.Prompt_AfterFinalBatch
+  nameWithType.vb: ItemPicker(Of T).Prompt_AfterFinalBatch
+- uid: FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterFinalBatch*
+  name: Prompt_AfterFinalBatch
+  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterFinalBatch_
+  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterFinalBatch
+  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterFinalBatch
+  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterFinalBatch
+  nameWithType: ItemPicker<T>.Prompt_AfterFinalBatch
+  nameWithType.vb: ItemPicker(Of T).Prompt_AfterFinalBatch
+- uid: FrizzLib.CLI.Pickers.Pickers
+  name: Pickers
+  href: api/FrizzLib.CLI.Pickers.Pickers.html
+  commentId: T:FrizzLib.CLI.Pickers.Pickers
+  fullName: FrizzLib.CLI.Pickers.Pickers
+  nameWithType: Pickers
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFile
+  name: PickFile()
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile
+  commentId: M:FrizzLib.CLI.Pickers.Pickers.PickFile
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFile()
+  nameWithType: Pickers.PickFile()
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFile(System.String)
+  name: PickFile(string)
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile_System_String_
+  commentId: M:FrizzLib.CLI.Pickers.Pickers.PickFile(System.String)
+  name.vb: PickFile(String)
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFile(string)
+  fullName.vb: FrizzLib.CLI.Pickers.Pickers.PickFile(String)
+  nameWithType: Pickers.PickFile(string)
+  nameWithType.vb: Pickers.PickFile(String)
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFile*
+  name: PickFile
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile_
+  commentId: Overload:FrizzLib.CLI.Pickers.Pickers.PickFile
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFile
+  nameWithType: Pickers.PickFile
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFolder
+  name: PickFolder()
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder
+  commentId: M:FrizzLib.CLI.Pickers.Pickers.PickFolder
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFolder()
+  nameWithType: Pickers.PickFolder()
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFolder(System.String)
+  name: PickFolder(string)
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder_System_String_
+  commentId: M:FrizzLib.CLI.Pickers.Pickers.PickFolder(System.String)
+  name.vb: PickFolder(String)
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFolder(string)
+  fullName.vb: FrizzLib.CLI.Pickers.Pickers.PickFolder(String)
+  nameWithType: Pickers.PickFolder(string)
+  nameWithType.vb: Pickers.PickFolder(String)
+- uid: FrizzLib.CLI.Pickers.Pickers.PickFolder*
+  name: PickFolder
+  href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder_
+  commentId: Overload:FrizzLib.CLI.Pickers.Pickers.PickFolder
+  fullName: FrizzLib.CLI.Pickers.Pickers.PickFolder
+  nameWithType: Pickers.PickFolder
+- uid: FrizzLib.MovieHelp
+  name: FrizzLib.MovieHelp
+  href: api/FrizzLib.MovieHelp.html
+  commentId: N:FrizzLib.MovieHelp
+  fullName: FrizzLib.MovieHelp
+  nameWithType: FrizzLib.MovieHelp
+- uid: FrizzLib.MovieHelp.FilterByType
+  name: FilterByType
+  href: api/FrizzLib.MovieHelp.FilterByType.html
+  commentId: T:FrizzLib.MovieHelp.FilterByType
+  fullName: FrizzLib.MovieHelp.FilterByType
+  nameWithType: FilterByType
+- uid: FrizzLib.MovieHelp.FilterByType.Subtitle(System.Collections.Generic.IEnumerable{System.IO.FileInfo})
+  name: Subtitle(IEnumerable<FileInfo>)
+  href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Subtitle_System_Collections_Generic_IEnumerable_System_IO_FileInfo__
+  commentId: M:FrizzLib.MovieHelp.FilterByType.Subtitle(System.Collections.Generic.IEnumerable{System.IO.FileInfo})
+  name.vb: Subtitle(IEnumerable(Of FileInfo))
+  fullName: FrizzLib.MovieHelp.FilterByType.Subtitle(System.Collections.Generic.IEnumerable<System.IO.FileInfo>)
+  fullName.vb: FrizzLib.MovieHelp.FilterByType.Subtitle(System.Collections.Generic.IEnumerable(Of System.IO.FileInfo))
+  nameWithType: FilterByType.Subtitle(IEnumerable<FileInfo>)
+  nameWithType.vb: FilterByType.Subtitle(IEnumerable(Of FileInfo))
+- uid: FrizzLib.MovieHelp.FilterByType.Subtitle*
+  name: Subtitle
+  href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Subtitle_
+  commentId: Overload:FrizzLib.MovieHelp.FilterByType.Subtitle
+  fullName: FrizzLib.MovieHelp.FilterByType.Subtitle
+  nameWithType: FilterByType.Subtitle
+- uid: FrizzLib.MovieHelp.FilterByType.Video(System.Collections.Generic.IEnumerable{System.IO.FileInfo})
+  name: Video(IEnumerable<FileInfo>)
+  href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Video_System_Collections_Generic_IEnumerable_System_IO_FileInfo__
+  commentId: M:FrizzLib.MovieHelp.FilterByType.Video(System.Collections.Generic.IEnumerable{System.IO.FileInfo})
+  name.vb: Video(IEnumerable(Of FileInfo))
+  fullName: FrizzLib.MovieHelp.FilterByType.Video(System.Collections.Generic.IEnumerable<System.IO.FileInfo>)
+  fullName.vb: FrizzLib.MovieHelp.FilterByType.Video(System.Collections.Generic.IEnumerable(Of System.IO.FileInfo))
+  nameWithType: FilterByType.Video(IEnumerable<FileInfo>)
+  nameWithType.vb: FilterByType.Video(IEnumerable(Of FileInfo))
+- uid: FrizzLib.MovieHelp.FilterByType.Video*
+  name: Video
+  href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Video_
+  commentId: Overload:FrizzLib.MovieHelp.FilterByType.Video
+  fullName: FrizzLib.MovieHelp.FilterByType.Video
+  nameWithType: FilterByType.Video
+- uid: FrizzLib.MovieHelp.ISO639_Language
+  name: ISO639_Language
+  href: api/FrizzLib.MovieHelp.ISO639_Language.html
+  commentId: T:FrizzLib.MovieHelp.ISO639_Language
+  fullName: FrizzLib.MovieHelp.ISO639_Language
+  nameWithType: ISO639_Language
+- uid: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code(System.String)
+  name: GetValidISO639_2Code(string?)
+  href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_GetValidISO639_2Code_System_String_
+  commentId: M:FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code(System.String)
+  name.vb: GetValidISO639_2Code(String)
+  fullName: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code(string?)
+  fullName.vb: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code(String)
+  nameWithType: ISO639_Language.GetValidISO639_2Code(string?)
+  nameWithType.vb: ISO639_Language.GetValidISO639_2Code(String)
+- uid: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code*
+  name: GetValidISO639_2Code
+  href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_GetValidISO639_2Code_
+  commentId: Overload:FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code
+  fullName: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code
+  nameWithType: ISO639_Language.GetValidISO639_2Code
+- uid: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2(System.String)
+  name: LongLanguage_FromISO639_2(string?)
+  href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_LongLanguage_FromISO639_2_System_String_
+  commentId: M:FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2(System.String)
+  name.vb: LongLanguage_FromISO639_2(String)
+  fullName: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2(string?)
+  fullName.vb: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2(String)
+  nameWithType: ISO639_Language.LongLanguage_FromISO639_2(string?)
+  nameWithType.vb: ISO639_Language.LongLanguage_FromISO639_2(String)
+- uid: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2*
+  name: LongLanguage_FromISO639_2
+  href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_LongLanguage_FromISO639_2_
+  commentId: Overload:FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2
+  fullName: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2
+  nameWithType: ISO639_Language.LongLanguage_FromISO639_2
+- uid: FrizzLib.MovieHelp.MovieOrEpisode
+  name: MovieOrEpisode
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html
+  commentId: T:FrizzLib.MovieHelp.MovieOrEpisode
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode
+  nameWithType: MovieOrEpisode
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.#ctor(System.IO.FileInfo)
+  name: MovieOrEpisode(FileInfo)
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode__ctor_System_IO_FileInfo_
+  commentId: M:FrizzLib.MovieHelp.MovieOrEpisode.#ctor(System.IO.FileInfo)
+  name.vb: New(FileInfo)
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MovieOrEpisode(System.IO.FileInfo)
+  fullName.vb: FrizzLib.MovieHelp.MovieOrEpisode.New(System.IO.FileInfo)
+  nameWithType: MovieOrEpisode.MovieOrEpisode(FileInfo)
+  nameWithType.vb: MovieOrEpisode.New(FileInfo)
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.#ctor*
+  name: MovieOrEpisode
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode__ctor_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.#ctor
+  name.vb: New
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MovieOrEpisode
+  fullName.vb: FrizzLib.MovieHelp.MovieOrEpisode.New
+  nameWithType: MovieOrEpisode.MovieOrEpisode
+  nameWithType.vb: MovieOrEpisode.New
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
+  name: MkvCommandSnippet()
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MkvCommandSnippet
+  commentId: M:FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet()
+  nameWithType: MovieOrEpisode.MkvCommandSnippet()
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet(System.String)
+  name: MkvCommandSnippet(string)
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MkvCommandSnippet_System_String_
+  commentId: M:FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet(System.String)
+  name.vb: MkvCommandSnippet(String)
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet(string)
+  fullName.vb: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet(String)
+  nameWithType: MovieOrEpisode.MkvCommandSnippet(string)
+  nameWithType.vb: MovieOrEpisode.MkvCommandSnippet(String)
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet*
+  name: MkvCommandSnippet
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MkvCommandSnippet_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
+  nameWithType: MovieOrEpisode.MkvCommandSnippet
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync(System.String)
+  name: MuxThisAsync(string)
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MuxThisAsync_System_String_
+  commentId: M:FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync(System.String)
+  name.vb: MuxThisAsync(String)
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync(string)
+  fullName.vb: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync(String)
+  nameWithType: MovieOrEpisode.MuxThisAsync(string)
+  nameWithType.vb: MovieOrEpisode.MuxThisAsync(String)
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync*
+  name: MuxThisAsync
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MuxThisAsync_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync
+  nameWithType: MovieOrEpisode.MuxThisAsync
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  name: Subtitles
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Subtitles
+  commentId: P:FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  nameWithType: MovieOrEpisode.Subtitles
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles*
+  name: Subtitles
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Subtitles_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  nameWithType: MovieOrEpisode.Subtitles
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Title
+  name: Title
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Title
+  commentId: P:FrizzLib.MovieHelp.MovieOrEpisode.Title
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Title
+  nameWithType: MovieOrEpisode.Title
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Title*
+  name: Title
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Title_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Title
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Title
+  nameWithType: MovieOrEpisode.Title
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  name: Video_FileInfo
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Video_FileInfo
+  commentId: P:FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  nameWithType: MovieOrEpisode.Video_FileInfo
+- uid: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo*
+  name: Video_FileInfo
+  href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Video_FileInfo_
+  commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  fullName: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  nameWithType: MovieOrEpisode.Video_FileInfo
+- uid: FrizzLib.MovieHelp.Subtitle
+  name: Subtitle
+  href: api/FrizzLib.MovieHelp.Subtitle.html
+  commentId: T:FrizzLib.MovieHelp.Subtitle
+  fullName: FrizzLib.MovieHelp.Subtitle
+  nameWithType: Subtitle
+- uid: FrizzLib.MovieHelp.Subtitle.#ctor(System.IO.FileInfo)
+  name: Subtitle(FileInfo)
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle__ctor_System_IO_FileInfo_
+  commentId: M:FrizzLib.MovieHelp.Subtitle.#ctor(System.IO.FileInfo)
+  name.vb: New(FileInfo)
+  fullName: FrizzLib.MovieHelp.Subtitle.Subtitle(System.IO.FileInfo)
+  fullName.vb: FrizzLib.MovieHelp.Subtitle.New(System.IO.FileInfo)
+  nameWithType: Subtitle.Subtitle(FileInfo)
+  nameWithType.vb: Subtitle.New(FileInfo)
+- uid: FrizzLib.MovieHelp.Subtitle.#ctor*
+  name: Subtitle
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle__ctor_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.#ctor
+  name.vb: New
+  fullName: FrizzLib.MovieHelp.Subtitle.Subtitle
+  fullName.vb: FrizzLib.MovieHelp.Subtitle.New
+  nameWithType: Subtitle.Subtitle
+  nameWithType.vb: Subtitle.New
+- uid: FrizzLib.MovieHelp.Subtitle.BelongsTo(FrizzLib.MovieHelp.MovieOrEpisode)
+  name: BelongsTo(MovieOrEpisode)
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_BelongsTo_FrizzLib_MovieHelp_MovieOrEpisode_
+  commentId: M:FrizzLib.MovieHelp.Subtitle.BelongsTo(FrizzLib.MovieHelp.MovieOrEpisode)
+  fullName: FrizzLib.MovieHelp.Subtitle.BelongsTo(FrizzLib.MovieHelp.MovieOrEpisode)
+  nameWithType: Subtitle.BelongsTo(MovieOrEpisode)
+- uid: FrizzLib.MovieHelp.Subtitle.BelongsTo*
+  name: BelongsTo
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_BelongsTo_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.BelongsTo
+  fullName: FrizzLib.MovieHelp.Subtitle.BelongsTo
+  nameWithType: Subtitle.BelongsTo
+- uid: FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  name: EnglishAssumed
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_EnglishAssumed
+  commentId: P:FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  fullName: FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  nameWithType: Subtitle.EnglishAssumed
+- uid: FrizzLib.MovieHelp.Subtitle.EnglishAssumed*
+  name: EnglishAssumed
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_EnglishAssumed_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  fullName: FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  nameWithType: Subtitle.EnglishAssumed
+- uid: FrizzLib.MovieHelp.Subtitle.IsForced
+  name: IsForced
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsForced
+  commentId: P:FrizzLib.MovieHelp.Subtitle.IsForced
+  fullName: FrizzLib.MovieHelp.Subtitle.IsForced
+  nameWithType: Subtitle.IsForced
+- uid: FrizzLib.MovieHelp.Subtitle.IsForced*
+  name: IsForced
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsForced_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.IsForced
+  fullName: FrizzLib.MovieHelp.Subtitle.IsForced
+  nameWithType: Subtitle.IsForced
+- uid: FrizzLib.MovieHelp.Subtitle.IsSdh
+  name: IsSdh
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsSdh
+  commentId: P:FrizzLib.MovieHelp.Subtitle.IsSdh
+  fullName: FrizzLib.MovieHelp.Subtitle.IsSdh
+  nameWithType: Subtitle.IsSdh
+- uid: FrizzLib.MovieHelp.Subtitle.IsSdh*
+  name: IsSdh
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsSdh_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.IsSdh
+  fullName: FrizzLib.MovieHelp.Subtitle.IsSdh
+  nameWithType: Subtitle.IsSdh
+- uid: FrizzLib.MovieHelp.Subtitle.LanguageCode
+  name: LanguageCode
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageCode
+  commentId: P:FrizzLib.MovieHelp.Subtitle.LanguageCode
+  fullName: FrizzLib.MovieHelp.Subtitle.LanguageCode
+  nameWithType: Subtitle.LanguageCode
+- uid: FrizzLib.MovieHelp.Subtitle.LanguageCode*
+  name: LanguageCode
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageCode_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.LanguageCode
+  fullName: FrizzLib.MovieHelp.Subtitle.LanguageCode
+  nameWithType: Subtitle.LanguageCode
+- uid: FrizzLib.MovieHelp.Subtitle.LanguageString
+  name: LanguageString
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageString
+  commentId: P:FrizzLib.MovieHelp.Subtitle.LanguageString
+  fullName: FrizzLib.MovieHelp.Subtitle.LanguageString
+  nameWithType: Subtitle.LanguageString
+- uid: FrizzLib.MovieHelp.Subtitle.LanguageString*
+  name: LanguageString
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageString_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.LanguageString
+  fullName: FrizzLib.MovieHelp.Subtitle.LanguageString
+  nameWithType: Subtitle.LanguageString
+- uid: FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  name: MatchedToVideo
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MatchedToVideo
+  commentId: P:FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  fullName: FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  nameWithType: Subtitle.MatchedToVideo
+- uid: FrizzLib.MovieHelp.Subtitle.MatchedToVideo*
+  name: MatchedToVideo
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MatchedToVideo_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  fullName: FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  nameWithType: Subtitle.MatchedToVideo
+- uid: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
+  name: MkvCommandSnippet()
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MkvCommandSnippet
+  commentId: M:FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
+  fullName: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet()
+  nameWithType: Subtitle.MkvCommandSnippet()
+- uid: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet*
+  name: MkvCommandSnippet
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MkvCommandSnippet_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
+  fullName: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
+  nameWithType: Subtitle.MkvCommandSnippet
+- uid: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  name: Sub_FileInfo
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_Sub_FileInfo
+  commentId: P:FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  fullName: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  nameWithType: Subtitle.Sub_FileInfo
+- uid: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo*
+  name: Sub_FileInfo
+  href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_Sub_FileInfo_
+  commentId: Overload:FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  fullName: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  nameWithType: Subtitle.Sub_FileInfo
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer
+  name: SubtitleLanguageComparer
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html
+  commentId: T:FrizzLib.MovieHelp.SubtitleLanguageComparer
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer
+  nameWithType: SubtitleLanguageComparer
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
+  name: SubtitleLanguageComparer()
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer__ctor
+  commentId: M:FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
+  name.vb: New()
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.SubtitleLanguageComparer()
+  fullName.vb: FrizzLib.MovieHelp.SubtitleLanguageComparer.New()
+  nameWithType: SubtitleLanguageComparer.SubtitleLanguageComparer()
+  nameWithType.vb: SubtitleLanguageComparer.New()
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor*
+  name: SubtitleLanguageComparer
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer__ctor_
+  commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
+  name.vb: New
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.SubtitleLanguageComparer
+  fullName.vb: FrizzLib.MovieHelp.SubtitleLanguageComparer.New
+  nameWithType: SubtitleLanguageComparer.SubtitleLanguageComparer
+  nameWithType.vb: SubtitleLanguageComparer.New
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals(FrizzLib.MovieHelp.Subtitle,FrizzLib.MovieHelp.Subtitle)
+  name: Equals(Subtitle?, Subtitle?)
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_Equals_FrizzLib_MovieHelp_Subtitle_FrizzLib_MovieHelp_Subtitle_
+  commentId: M:FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals(FrizzLib.MovieHelp.Subtitle,FrizzLib.MovieHelp.Subtitle)
+  name.vb: Equals(Subtitle, Subtitle)
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals(FrizzLib.MovieHelp.Subtitle?, FrizzLib.MovieHelp.Subtitle?)
+  fullName.vb: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals(FrizzLib.MovieHelp.Subtitle, FrizzLib.MovieHelp.Subtitle)
+  nameWithType: SubtitleLanguageComparer.Equals(Subtitle?, Subtitle?)
+  nameWithType.vb: SubtitleLanguageComparer.Equals(Subtitle, Subtitle)
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals*
+  name: Equals
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_Equals_
+  commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals
+  nameWithType: SubtitleLanguageComparer.Equals
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode(FrizzLib.MovieHelp.Subtitle)
+  name: GetHashCode(Subtitle)
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_GetHashCode_FrizzLib_MovieHelp_Subtitle_
+  commentId: M:FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode(FrizzLib.MovieHelp.Subtitle)
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode(FrizzLib.MovieHelp.Subtitle)
+  nameWithType: SubtitleLanguageComparer.GetHashCode(Subtitle)
+- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode*
+  name: GetHashCode
+  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_GetHashCode_
+  commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode
+  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode
+  nameWithType: SubtitleLanguageComparer.GetHashCode

@@ -1,0 +1,166 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/David/OneDrive/Source Code/VS Code/FrizzLib/docFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.CLI.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.CLI.CLI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.CLI.Pickers.ItemPicker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.CLI.Pickers.ItemPicker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.CLI.Pickers.Pickers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.CLI.Pickers.Pickers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.CLI.Pickers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.CLI.Pickers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.CLI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.FilterByType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.FilterByType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.ISO639_Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.ISO639_Language.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.MovieOrEpisode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.MovieOrEpisode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.Subtitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.Subtitle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.SubtitleLanguageComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.MovieHelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.MovieHelp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/myarticle.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/myarticle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

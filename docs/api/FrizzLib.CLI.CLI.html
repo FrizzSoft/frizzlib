@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CLI
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CLI
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      
+      
+      <meta name="docfx:disabletocfilter" content="true">
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FrizzLib.CLI.CLI">
+
+
+
+  <h1 id="FrizzLib_CLI_CLI" data-uid="FrizzLib.CLI.CLI" class="text-break">
+    Class CLI
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FrizzLib.html">FrizzLib</a>.<a class="xref" href="FrizzLib.CLI.html">CLI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CLI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A static class containing useful CLI methods.</p>
+<p><u>Available methods</u></p>
+<ul><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_">Prompt(string)</a></li><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_System_String_">Prompt(string, string)</a></li><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_System_String_System_String_System_Boolean_">Prompt(string, string, bool)</a></li><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_WriteHeading_System_String_">WriteHeading(string)</a></li><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Start_System_Int32_">ProgressBar_Start(int)</a></li><li><a class="xref" href="FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Stop">ProgressBar_Stop()</a></li></ul>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CLI</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CLI</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FrizzLib_CLI_CLI_ProgressBar_Start_" data-uid="FrizzLib.CLI.CLI.ProgressBar_Start*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_ProgressBar_Start_System_Int32_" data-uid="FrizzLib.CLI.CLI.ProgressBar_Start(System.Int32)">
+  ProgressBar_Start(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Starts a CLI 'Progress bar' that outputs a period to the console at regular intervals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ProgressBar_Start(int msInterval)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>msInterval</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The interval (in milliseconds).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FrizzLib_CLI_CLI_ProgressBar_Stop_" data-uid="FrizzLib.CLI.CLI.ProgressBar_Stop*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_ProgressBar_Stop" data-uid="FrizzLib.CLI.CLI.ProgressBar_Stop">
+  ProgressBar_Stop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stops the Progress bar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ProgressBar_Stop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FrizzLib_CLI_CLI_Prompt_" data-uid="FrizzLib.CLI.CLI.Prompt*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_Prompt_System_String_" data-uid="FrizzLib.CLI.CLI.Prompt(System.String)">
+  Prompt(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays a message, and on the next line prompts user to press ENTER to continue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Prompt(string PromptText)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>PromptText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><ulist type="bullet">
+<li>The message to display.</li>
+</ulist>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FrizzLib_CLI_CLI_Prompt_" data-uid="FrizzLib.CLI.CLI.Prompt*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_Prompt_System_String_System_String_" data-uid="FrizzLib.CLI.CLI.Prompt(System.String,System.String)">
+  Prompt(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays a message, and on the next line prompts user to press ENTER to perform another action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Prompt(string PromptText, string ContinueText)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>PromptText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message to display.</p>
+</dd>
+    <dt><code>ContinueText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The action to perform after user presses ENTER.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FrizzLib_CLI_CLI_Prompt_" data-uid="FrizzLib.CLI.CLI.Prompt*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_Prompt_System_String_System_String_System_Boolean_" data-uid="FrizzLib.CLI.CLI.Prompt(System.String,System.String,System.Boolean)">
+  Prompt(string, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays a message, and on the next or the same line prompts user to press ENTER to perform another action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Prompt(string PromptText, string ContinueText, bool OneLinePrompt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>PromptText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message to display.</p>
+</dd>
+    <dt><code>ContinueText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The action to perform after user presses ENTER.</p>
+</dd>
+    <dt><code>OneLinePrompt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>bool specifying whether to display both messages on a single line or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FrizzLib_CLI_CLI_WriteHeading_" data-uid="FrizzLib.CLI.CLI.WriteHeading*"></a>
+
+  <h3 id="FrizzLib_CLI_CLI_WriteHeading_System_String_" data-uid="FrizzLib.CLI.CLI.WriteHeading(System.String)">
+  WriteHeading(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Write a string to the console with a line of underscores above it to highlight and separate the string from prior console output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteHeading(string Heading)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Heading</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to output to the console.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
