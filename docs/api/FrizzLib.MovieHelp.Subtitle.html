@@ -98,7 +98,7 @@
   <dl><dt>Assembly</dt><dd>MovieHelp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Class to help with manipulating subtitle files using mkvmerge.exe</p>
+  <div class="markdown summary"><p>Class to help with processing of subtitle files using <em>mkvmerge.exe</em>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -161,7 +161,9 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a Subtitle object from the specified subtitle file.
+Attempts to infer the subtitle language from the filename, but assumes English if this fails.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -171,7 +173,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>Subtitle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
-    <dd></dd>
+    <dd><p>Reference to the subtitle file.</p>
+</dd>
   </dl>
 
 
@@ -196,7 +199,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether English had to be assumed due to lack of information in the file name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -227,7 +231,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether these are <em>forced</em> subtitles.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -258,7 +263,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether these are <strong>S</strong>ubtitles for the <strong>D</strong>eaf and <strong>H</strong>earing impaired.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -289,7 +295,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The ISO639-2 language code (e.g. esp for Spanish)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -320,7 +327,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The long language description (e.g. Spanish)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -351,7 +359,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether this subtitle file has been matched with a video file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -382,7 +391,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reference to the subtitle file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -417,7 +427,9 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method to determine if the specified video file matches this subtitle file.
+Examines the file and folder names and relative location to determine this.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -427,13 +439,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>Video</code> <a class="xref" href="FrizzLib.MovieHelp.MovieOrEpisode.html">MovieOrEpisode</a></dt>
-    <dd></dd>
+    <dd><p>The MovieOrEpisode object to compare to.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p><code>true</code> if video matches subtitle, else <code>false</code>.</p>
+</dd>
   </dl>
 
 
@@ -453,7 +467,9 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generates the <em>mkvmerge.exe</em> command-line segment for this subtitle file.
+Appropriate switches are included for language and SDH and forced flags.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -464,7 +480,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The <em>mkvmerge.exe</em> command-line segment.</p>
+</dd>
   </dl>
 
 
