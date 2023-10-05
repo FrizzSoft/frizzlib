@@ -2,17 +2,32 @@ using System.Diagnostics;
 using System.Text.RegularExpressions;
 
 namespace FrizzLib.MovieHelp;
-
 /// <summary>
-/// Class to help with manipulating video files using mkvmerge.exe
+/// A class to assist with multiplexing movies using the mkvtoolnix mkvmerge.exe tool.
 /// </summary>
 public class MovieOrEpisode
 {
+    /// <summary>
+    /// <c>FileInfo</c> referencing the current video file.
+    /// </summary>
     public FileInfo Video_FileInfo { get; set; }
+    /// <summary>
+    /// The title of the video, stripped from the filename on construction.
+    /// </summary>
     public string Title { get; set; }
+    /// <summary>
+    /// The list of subtitles associated with this video file.
+    /// </summary>
     public List<Subtitle> Subtitles { get; set; }
     static Process? Muxer;
 
+    /// <summary>
+    /// Creates a MovieOrEpisode instance from the specified video file.
+    /// Tries to infer the movie or episode <c>Title</c> from the filename.
+    /// </summary>
+    /// <param name="file">A <c>FileInfo</c> specifying the source video file.</param>
+    /// <exception cref="ArgumentException">A null or empty filename will not be accepted.</exception>
+    /// <remarks>Exception should not be thrown, as a FileInfo must contain a Name property.</remarks>
     // Constructor
     public MovieOrEpisode(FileInfo file)
     {
@@ -41,11 +56,25 @@ public class MovieOrEpisode
         }
     }
 
+    /// <summary>
+    /// Generates the mkvmerge.exe command segment for this movie file, assuming the spoken language is English.
+    /// Later, additional segments will be appended for each subtitle file,
+    /// the result being the complete command-line string to pass to mkvmerge.exe.
+    /// </summary>
+    /// <returns>A string containing the command segment.</returns>
     public string MkvCommandSnippet()
     {
         return MkvCommandSnippet("eng");
     }
 
+    /// <summary>
+    /// Generates the mkvmerge.exe command segment for this movie file,
+    /// inserting the appropriate language code for the specified spoken language.
+    /// Later, additional segments will be appended for each subtitle file,
+    /// the result being the complete command-line string to pass to mkvmerge.exe.
+    /// </summary>
+    /// <param name="SpokenLanguageCode">The spoken language of the video.</param>
+    /// <returns>A string containing the command segment.</returns>
     public string MkvCommandSnippet(string SpokenLanguageCode)
     {
         string title = $"--title \"{Title}\"";
@@ -56,6 +85,11 @@ public class MovieOrEpisode
         return title + quietTag + videoLanguage + outputFile + inputFile;
     }
 
+    /// <summary>
+    /// Runs an async instance of the mkvtoolnix.exe command line tool, to multiplex the current video.
+    /// </summary>
+    /// <param name="mkvArgs">The command-line string to pass to mkvtoolnix.exe.</param>
+    /// <returns>A <c>string</c>describing whether the multiplexing completed successfully or not.</returns>
     public static async Task<string> MuxThisAsync(string mkvArgs)
     {
         ProcessStartInfo startInfo;

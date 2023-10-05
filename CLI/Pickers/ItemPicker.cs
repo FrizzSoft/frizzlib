@@ -10,7 +10,7 @@
 /// over-ridden by the user to determine how each item is displayed in the list, and allow additional
 /// valid text responses.</para>
 /// <p><see cref="PickItem(T[], int)"></see> pauses after each batch and accepts user input. The class abstracts away the recursion logic of the listing process.</p>
-/// <p>The following methods my be overridden:</p>
+/// <p>The following methods may be overridden:</p>
 /// <list type="bullet">
 /// <item><see cref="ItemFormatter(T)"></see> Logic to appropriately display one object to the console</item>
 /// <item><see cref="IsAUserAllowedResponse(string?)"></see> Allows user to include additional allowed text responses</item>
