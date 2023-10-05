@@ -98,7 +98,7 @@
   <dl><dt>Assembly</dt><dd>MovieHelp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class to assist with multiplexing movies using the mkvtoolnix mkvmerge.exe tool.</p>
+  <div class="markdown summary"><p>A class to assist with the multiplexing of movies using the mkvtoolnix mkvmerge.exe tool.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -173,7 +173,7 @@ Tries to infer the movie or episode <code>Title</code> from the filename.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
-    <dd><p>A <code>FileInfo</code> specifying the source video file.</p>
+    <dd><p>Specifies the source video file.</p>
 </dd>
   </dl>
 
@@ -185,7 +185,7 @@ Tries to infer the movie or episode <code>Title</code> from the filename.</p>
 
 
   <h4 class="section" id="FrizzLib_MovieHelp_MovieOrEpisode__ctor_System_IO_FileInfo__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Exception should not be thrown, as a FileInfo must contain a Name property.</p>
+  <div class="markdown level1 remarks"><p>The following exception should not be thrown, as a FileInfo must contain a Name property.</p>
 </div>
 
   <h4 class="section">Exceptions</h4>
@@ -240,7 +240,7 @@ Tries to infer the movie or episode <code>Title</code> from the filename.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The title of the video, stripped from the filename on construction.</p>
+  <div class="markdown level1 summary"><p>The title of the video, extracted from the filename on construction.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -272,7 +272,7 @@ Tries to infer the movie or episode <code>Title</code> from the filename.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p><code>FileInfo</code> referencing the current video file.</p>
+  <div class="markdown level1 summary"><p>Reference to the current video file.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -308,7 +308,7 @@ Tries to infer the movie or episode <code>Title</code> from the filename.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Generates the mkvmerge.exe command segment for this movie file, assuming the spoken language is English.
+  <div class="markdown level1 summary"><p>Generates the mkvmerge.exe command segment for this movie file, assuming the spoken language to be English.
 Later, additional segments will be appended for each subtitle file,
 the result being the complete command-line string to pass to mkvmerge.exe.</p>
 </div>
@@ -322,7 +322,7 @@ the result being the complete command-line string to pass to mkvmerge.exe.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string containing the command segment.</p>
+    <dd><p>The generated command segment.</p>
 </dd>
   </dl>
 
@@ -364,7 +364,7 @@ the result being the complete command-line string to pass to mkvmerge.exe.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string containing the command segment.</p>
+    <dd><p>The generated command segment.</p>
 </dd>
   </dl>
 
@@ -403,7 +403,7 @@ the result being the complete command-line string to pass to mkvmerge.exe.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-    <dd><p>A <code>string</code>describing whether the multiplexing completed successfully or not.</p>
+    <dd><p>The status at termination of the multiplexing operation (success or otherwise).</p>
 </dd>
   </dl>
 

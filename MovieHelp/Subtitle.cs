@@ -3,18 +3,50 @@ using System.Text.RegularExpressions;
 namespace FrizzLib.MovieHelp;
 
 /// <summary>
-/// Class to help with manipulating subtitle files using mkvmerge.exe
+/// Class to help with processing of subtitle files using mkvmerge.exe.
 /// </summary>
 public class Subtitle
 {
-    public string? LanguageCode { get; set; }       //ISO639-2 language code (e.g. esp)
+    /// <summary>
+    /// The ISO639-2 language code (e.g. esp for Spanish)
+    /// </summary>
+    public string? LanguageCode { get; set; }       // ISO639-2 language code (e.g. esp)
+
+    /// <summary>
+    /// The long language description (e.g. Spanish)
+    /// </summary>
     public string? LanguageString { get; set; }     // Long language description (e.g. Spanish)
+
+    /// <summary>
+    /// Whether English had to be assumed due to lack of information in the file name.
+    /// </summary>
     public bool EnglishAssumed { get; set; }        // No language detected, so English assumed
+
+    /// <summary>
+    /// Whether this subtitle file has been matched with a video file.
+    /// </summary>
     public bool MatchedToVideo { get; set; }
+
+    /// <summary>
+    /// Whether these are <c>S</c>ubtitles for the <c>D</c>eaf and <c>H</c>earing impaired.
+    /// </summary>
     public bool IsSdh { get; set; } = false;        // Subtitles for the Deaf and Hearing impaired
+
+    /// <summary>
+    /// Whether these are <em>forced</em> subtitles.
+    /// </summary>
     public bool IsForced { get; set; } = false;     // True if 'Forced' subtitle
+
+    /// <summary>
+    /// Reference to the subtitle file.
+    /// </summary>
     public FileInfo Sub_FileInfo { get; private set; }
 
+    /// <summary>
+    /// Creates an instance of <see cref="FrizzLib.MovieHelp.Subtitle"/> from the specified subtitle file.
+    /// Attempts to infer the subtitle language from the filename, but assumes English if this fails.
+    /// </summary>
+    /// <param name="Subtitle">Reference to the subtitle file.</param>
     // Constructor
     public Subtitle(FileInfo Subtitle)
     {
@@ -24,7 +56,7 @@ public class Subtitle
         LanguageCode = ISO639_Language.GetValidISO639_2Code(apparentLanguage);
         LanguageString = ISO639_Language.LongLanguage_FromISO639_2(LanguageCode);
 
-        // Helper meethod
+        // Helper method
         static string LanguageFromFilename(string FileName, out bool EnglAssumed)
         // Returns "eng" if no language found in filename, else the language specified
         {
@@ -43,6 +75,12 @@ public class Subtitle
         }
     }
 
+    /// <summary>
+    /// Method to determine if the specified video file matches this subtitle file.
+    /// Looks at filename, foldername and relative location to determine this.
+    /// </summary>
+    /// <param name="Video">The <see cref="MovieOrEpisode"/> object to compare to.</param>
+    /// <returns><c>true</c> if video matches subtitle, else <c>false</c>.</returns>
     public bool BelongsTo(MovieOrEpisode Video)
     {
         var videoFileName = Path.GetFileNameWithoutExtension(Video.Video_FileInfo.Name);
@@ -95,6 +133,11 @@ public class Subtitle
         #endregion
     }
 
+    /// <summary>
+    /// Generates the <c>mkvmerge.exe</c> command-line segment for this subtitle file.
+    /// Appropriate switches are included for language and SDH and forced flags.
+    /// </summary>
+    /// <returns>The <c>mkvmerge.exe</c> command-line segment.</returns>
     public string MkvCommandSnippet()
     {
         string mkvSnippet = " --language 0:" + LanguageCode + " --default-track-flag 0:0";

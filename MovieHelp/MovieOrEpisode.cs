@@ -18,7 +18,7 @@ public class MovieOrEpisode
     public string Title { get; set; }
 
     /// <summary>
-    /// The list of subtitles associated with this video file.
+    /// The subtitles associated with this video file.
     /// </summary>
     public List<Subtitle> Subtitles { get; set; }
 
