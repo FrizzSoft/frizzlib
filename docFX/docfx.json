@@ -4,8 +4,7 @@
       "src": [
         {
           "files": [
-            "**/bin/debug/**.dll",
-            "**/bin/debug/**.exe"
+            "**.csproj"
           ],
           "src": "../"
         }

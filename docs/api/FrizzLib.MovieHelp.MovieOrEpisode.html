@@ -98,7 +98,7 @@
   <dl><dt>Assembly</dt><dd>MovieHelp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Class to help with manipulating video files using mkvmerge.exe</p>
+  <div class="markdown summary"><p>A class to assist with multiplexing movies using the mkvtoolnix mkvmerge.exe tool.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -123,25 +123,25 @@
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
 
@@ -161,7 +161,9 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a MovieOrEpisode instance from the specified video file.
+Tries to infer the movie or episode <code>Title</code> from the filename.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -171,7 +173,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
-    <dd></dd>
+    <dd><p>A <code>FileInfo</code> specifying the source video file.</p>
+</dd>
   </dl>
 
 
@@ -181,7 +184,16 @@
 
 
 
+  <h4 class="section" id="FrizzLib_MovieHelp_MovieOrEpisode__ctor_System_IO_FileInfo__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Exception should not be thrown, as a FileInfo must contain a Name property.</p>
+</div>
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>A null or empty filename will not be accepted.</p>
+</dd>
+  </dl>
 
 
 
@@ -196,7 +208,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The list of subtitles associated with this video file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -227,7 +240,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The title of the video, stripped from the filename on construction.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -258,7 +272,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><code>FileInfo</code> referencing the current video file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -293,7 +308,10 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generates the mkvmerge.exe command segment for this movie file, assuming the spoken language is English.
+Later, additional segments will be appended for each subtitle file,
+the result being the complete command-line string to pass to mkvmerge.exe.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -304,7 +322,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A string containing the command segment.</p>
+</dd>
   </dl>
 
 
@@ -324,7 +343,11 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generates the mkvmerge.exe command segment for this movie file,
+inserting the appropriate language code for the specified spoken language.
+Later, additional segments will be appended for each subtitle file,
+the result being the complete command-line string to pass to mkvmerge.exe.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -334,13 +357,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>SpokenLanguageCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The spoken language of the video.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A string containing the command segment.</p>
+</dd>
   </dl>
 
 
@@ -360,7 +385,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Runs an async instance of the mkvtoolnix.exe command line tool, to multiplex the current video.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -370,13 +396,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>mkvArgs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The command-line string to pass to mkvtoolnix.exe.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A <code>string</code>describing whether the multiplexing completed successfully or not.</p>
+</dd>
   </dl>
 
 

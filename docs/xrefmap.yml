@@ -26,6 +26,7 @@ references:
   name: ProgressBar_Start
   href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Start_
   commentId: Overload:FrizzLib.CLI.CLI.ProgressBar_Start
+  isSpec: "True"
   fullName: FrizzLib.CLI.CLI.ProgressBar_Start
   nameWithType: CLI.ProgressBar_Start
 - uid: FrizzLib.CLI.CLI.ProgressBar_Stop
@@ -38,6 +39,7 @@ references:
   name: ProgressBar_Stop
   href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_ProgressBar_Stop_
   commentId: Overload:FrizzLib.CLI.CLI.ProgressBar_Stop
+  isSpec: "True"
   fullName: FrizzLib.CLI.CLI.ProgressBar_Stop
   nameWithType: CLI.ProgressBar_Stop
 - uid: FrizzLib.CLI.CLI.Prompt(System.String)
@@ -71,6 +73,7 @@ references:
   name: Prompt
   href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_Prompt_
   commentId: Overload:FrizzLib.CLI.CLI.Prompt
+  isSpec: "True"
   fullName: FrizzLib.CLI.CLI.Prompt
   nameWithType: CLI.Prompt
 - uid: FrizzLib.CLI.CLI.WriteHeading(System.String)
@@ -86,6 +89,7 @@ references:
   name: WriteHeading
   href: api/FrizzLib.CLI.CLI.html#FrizzLib_CLI_CLI_WriteHeading_
   commentId: Overload:FrizzLib.CLI.CLI.WriteHeading
+  isSpec: "True"
   fullName: FrizzLib.CLI.CLI.WriteHeading
   nameWithType: CLI.WriteHeading
 - uid: FrizzLib.CLI.Pickers
@@ -103,24 +107,6 @@ references:
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T)
   nameWithType: ItemPicker<T>
   nameWithType.vb: ItemPicker(Of T)
-- uid: FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
-  name: ItemPicker()
-  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1__ctor
-  commentId: M:FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
-  name.vb: New()
-  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemPicker()
-  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).New()
-  nameWithType: ItemPicker<T>.ItemPicker()
-  nameWithType.vb: ItemPicker(Of T).New()
-- uid: FrizzLib.CLI.Pickers.ItemPicker`1.#ctor*
-  name: ItemPicker
-  href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1__ctor_
-  commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.#ctor
-  name.vb: New
-  fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemPicker
-  fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).New
-  nameWithType: ItemPicker<T>.ItemPicker
-  nameWithType.vb: ItemPicker(Of T).New
 - uid: FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading
   name: BatchHeading
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_BatchHeading
@@ -133,6 +119,7 @@ references:
   name: BatchHeading
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_BatchHeading_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.BatchHeading
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.BatchHeading
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).BatchHeading
   nameWithType: ItemPicker<T>.BatchHeading
@@ -149,6 +136,7 @@ references:
   name: HelpMessage
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_HelpMessage_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.HelpMessage
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.HelpMessage
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).HelpMessage
   nameWithType: ItemPicker<T>.HelpMessage
@@ -166,6 +154,7 @@ references:
   name: IsAUserAllowedResponse
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_IsAUserAllowedResponse_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.IsAUserAllowedResponse
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.IsAUserAllowedResponse
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).IsAUserAllowedResponse
   nameWithType: ItemPicker<T>.IsAUserAllowedResponse
@@ -182,6 +171,7 @@ references:
   name: ItemFormatter
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_ItemFormatter_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.ItemFormatter
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.ItemFormatter
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).ItemFormatter
   nameWithType: ItemPicker<T>.ItemFormatter
@@ -199,6 +189,7 @@ references:
   name: PickItem
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_PickItem_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.PickItem
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.PickItem
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).PickItem
   nameWithType: ItemPicker<T>.PickItem
@@ -215,6 +206,7 @@ references:
   name: Prompt_AfterBatch
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterBatch_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterBatch
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterBatch
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterBatch
   nameWithType: ItemPicker<T>.Prompt_AfterBatch
@@ -231,6 +223,7 @@ references:
   name: Prompt_AfterFinalBatch
   href: api/FrizzLib.CLI.Pickers.ItemPicker-1.html#FrizzLib_CLI_Pickers_ItemPicker_1_Prompt_AfterFinalBatch_
   commentId: Overload:FrizzLib.CLI.Pickers.ItemPicker`1.Prompt_AfterFinalBatch
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.ItemPicker<T>.Prompt_AfterFinalBatch
   fullName.vb: FrizzLib.CLI.Pickers.ItemPicker(Of T).Prompt_AfterFinalBatch
   nameWithType: ItemPicker<T>.Prompt_AfterFinalBatch
@@ -260,6 +253,7 @@ references:
   name: PickFile
   href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile_
   commentId: Overload:FrizzLib.CLI.Pickers.Pickers.PickFile
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.Pickers.PickFile
   nameWithType: Pickers.PickFile
 - uid: FrizzLib.CLI.Pickers.Pickers.PickFolder
@@ -281,6 +275,7 @@ references:
   name: PickFolder
   href: api/FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder_
   commentId: Overload:FrizzLib.CLI.Pickers.Pickers.PickFolder
+  isSpec: "True"
   fullName: FrizzLib.CLI.Pickers.Pickers.PickFolder
   nameWithType: Pickers.PickFolder
 - uid: FrizzLib.MovieHelp
@@ -308,6 +303,7 @@ references:
   name: Subtitle
   href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Subtitle_
   commentId: Overload:FrizzLib.MovieHelp.FilterByType.Subtitle
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.FilterByType.Subtitle
   nameWithType: FilterByType.Subtitle
 - uid: FrizzLib.MovieHelp.FilterByType.Video(System.Collections.Generic.IEnumerable{System.IO.FileInfo})
@@ -323,6 +319,7 @@ references:
   name: Video
   href: api/FrizzLib.MovieHelp.FilterByType.html#FrizzLib_MovieHelp_FilterByType_Video_
   commentId: Overload:FrizzLib.MovieHelp.FilterByType.Video
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.FilterByType.Video
   nameWithType: FilterByType.Video
 - uid: FrizzLib.MovieHelp.ISO639_Language
@@ -344,6 +341,7 @@ references:
   name: GetValidISO639_2Code
   href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_GetValidISO639_2Code_
   commentId: Overload:FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.ISO639_Language.GetValidISO639_2Code
   nameWithType: ISO639_Language.GetValidISO639_2Code
 - uid: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2(System.String)
@@ -359,6 +357,7 @@ references:
   name: LongLanguage_FromISO639_2
   href: api/FrizzLib.MovieHelp.ISO639_Language.html#FrizzLib_MovieHelp_ISO639_Language_LongLanguage_FromISO639_2_
   commentId: Overload:FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.ISO639_Language.LongLanguage_FromISO639_2
   nameWithType: ISO639_Language.LongLanguage_FromISO639_2
 - uid: FrizzLib.MovieHelp.MovieOrEpisode
@@ -380,6 +379,7 @@ references:
   name: MovieOrEpisode
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode__ctor_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.#ctor
+  isSpec: "True"
   name.vb: New
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.MovieOrEpisode
   fullName.vb: FrizzLib.MovieHelp.MovieOrEpisode.New
@@ -404,6 +404,7 @@ references:
   name: MkvCommandSnippet
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MkvCommandSnippet_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.MkvCommandSnippet
   nameWithType: MovieOrEpisode.MkvCommandSnippet
 - uid: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync(System.String)
@@ -419,6 +420,7 @@ references:
   name: MuxThisAsync
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_MuxThisAsync_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.MuxThisAsync
   nameWithType: MovieOrEpisode.MuxThisAsync
 - uid: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
@@ -431,6 +433,7 @@ references:
   name: Subtitles
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Subtitles_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.Subtitles
   nameWithType: MovieOrEpisode.Subtitles
 - uid: FrizzLib.MovieHelp.MovieOrEpisode.Title
@@ -443,6 +446,7 @@ references:
   name: Title
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Title_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Title
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.Title
   nameWithType: MovieOrEpisode.Title
 - uid: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
@@ -455,6 +459,7 @@ references:
   name: Video_FileInfo
   href: api/FrizzLib.MovieHelp.MovieOrEpisode.html#FrizzLib_MovieHelp_MovieOrEpisode_Video_FileInfo_
   commentId: Overload:FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.MovieOrEpisode.Video_FileInfo
   nameWithType: MovieOrEpisode.Video_FileInfo
 - uid: FrizzLib.MovieHelp.Subtitle
@@ -476,6 +481,7 @@ references:
   name: Subtitle
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle__ctor_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.#ctor
+  isSpec: "True"
   name.vb: New
   fullName: FrizzLib.MovieHelp.Subtitle.Subtitle
   fullName.vb: FrizzLib.MovieHelp.Subtitle.New
@@ -491,6 +497,7 @@ references:
   name: BelongsTo
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_BelongsTo_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.BelongsTo
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.BelongsTo
   nameWithType: Subtitle.BelongsTo
 - uid: FrizzLib.MovieHelp.Subtitle.EnglishAssumed
@@ -503,6 +510,7 @@ references:
   name: EnglishAssumed
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_EnglishAssumed_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.EnglishAssumed
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.EnglishAssumed
   nameWithType: Subtitle.EnglishAssumed
 - uid: FrizzLib.MovieHelp.Subtitle.IsForced
@@ -515,6 +523,7 @@ references:
   name: IsForced
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsForced_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.IsForced
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.IsForced
   nameWithType: Subtitle.IsForced
 - uid: FrizzLib.MovieHelp.Subtitle.IsSdh
@@ -527,6 +536,7 @@ references:
   name: IsSdh
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_IsSdh_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.IsSdh
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.IsSdh
   nameWithType: Subtitle.IsSdh
 - uid: FrizzLib.MovieHelp.Subtitle.LanguageCode
@@ -539,6 +549,7 @@ references:
   name: LanguageCode
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageCode_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.LanguageCode
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.LanguageCode
   nameWithType: Subtitle.LanguageCode
 - uid: FrizzLib.MovieHelp.Subtitle.LanguageString
@@ -551,6 +562,7 @@ references:
   name: LanguageString
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_LanguageString_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.LanguageString
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.LanguageString
   nameWithType: Subtitle.LanguageString
 - uid: FrizzLib.MovieHelp.Subtitle.MatchedToVideo
@@ -563,6 +575,7 @@ references:
   name: MatchedToVideo
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MatchedToVideo_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.MatchedToVideo
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.MatchedToVideo
   nameWithType: Subtitle.MatchedToVideo
 - uid: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
@@ -575,6 +588,7 @@ references:
   name: MkvCommandSnippet
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_MkvCommandSnippet_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.MkvCommandSnippet
   nameWithType: Subtitle.MkvCommandSnippet
 - uid: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
@@ -587,6 +601,7 @@ references:
   name: Sub_FileInfo
   href: api/FrizzLib.MovieHelp.Subtitle.html#FrizzLib_MovieHelp_Subtitle_Sub_FileInfo_
   commentId: Overload:FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.Subtitle.Sub_FileInfo
   nameWithType: Subtitle.Sub_FileInfo
 - uid: FrizzLib.MovieHelp.SubtitleLanguageComparer
@@ -595,24 +610,6 @@ references:
   commentId: T:FrizzLib.MovieHelp.SubtitleLanguageComparer
   fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer
   nameWithType: SubtitleLanguageComparer
-- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
-  name: SubtitleLanguageComparer()
-  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer__ctor
-  commentId: M:FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
-  name.vb: New()
-  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.SubtitleLanguageComparer()
-  fullName.vb: FrizzLib.MovieHelp.SubtitleLanguageComparer.New()
-  nameWithType: SubtitleLanguageComparer.SubtitleLanguageComparer()
-  nameWithType.vb: SubtitleLanguageComparer.New()
-- uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor*
-  name: SubtitleLanguageComparer
-  href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer__ctor_
-  commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.#ctor
-  name.vb: New
-  fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.SubtitleLanguageComparer
-  fullName.vb: FrizzLib.MovieHelp.SubtitleLanguageComparer.New
-  nameWithType: SubtitleLanguageComparer.SubtitleLanguageComparer
-  nameWithType.vb: SubtitleLanguageComparer.New
 - uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals(FrizzLib.MovieHelp.Subtitle,FrizzLib.MovieHelp.Subtitle)
   name: Equals(Subtitle?, Subtitle?)
   href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_Equals_FrizzLib_MovieHelp_Subtitle_FrizzLib_MovieHelp_Subtitle_
@@ -626,6 +623,7 @@ references:
   name: Equals
   href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_Equals_
   commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.Equals
   nameWithType: SubtitleLanguageComparer.Equals
 - uid: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode(FrizzLib.MovieHelp.Subtitle)
@@ -638,5 +636,6 @@ references:
   name: GetHashCode
   href: api/FrizzLib.MovieHelp.SubtitleLanguageComparer.html#FrizzLib_MovieHelp_SubtitleLanguageComparer_GetHashCode_
   commentId: Overload:FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode
+  isSpec: "True"
   fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode
   nameWithType: SubtitleLanguageComparer.GetHashCode
