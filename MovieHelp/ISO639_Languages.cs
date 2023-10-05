@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace FrizzLib.MovieHelp;
 
+/// <summary>
+/// Class providing information about all the commonly used language codes assigned to video or subtitle files.
+/// Includes a list of all the ISO639-1 languages (plus Filipino), and their associated ISO639-1 and ISO639-2 codes.
+/// </summary>
 public static class ISO639_Language
 {
     // Private fields
@@ -16,9 +20,16 @@ public static class ISO639_Language
     }
 
     #region Public methods
+
+    /// <summary>
+    /// Returns a 3 character ISO639-2 language string if the string provided matches a known language.
+    /// Attempts will be made to match either a 2-character ISO639-1 code, a 3-character ISO639-2 code,
+    /// or the full language name (e.g. 'french', 'English'). Comparisons are case-insensitive.
+    /// </summary>
+    /// <param name="LanguageString">The string to match to a language.</param>
+    /// <returns>A 3 character ISO639-2 language string (in lower case) if <c>LanguageString</c> matches a known language.
+    /// Returns <c>null</c> if no language match is found.</returns>
     public static string? GetValidISO639_2Code(string? LanguageString)
-    // Returns a 3 character ISO639-2 language string if LanguageString matches a known language
-    // Returns null if no language match found
     {
         if (LanguageString == null) return null;
         int StringLength = LanguageString.Length;
@@ -28,6 +39,14 @@ public static class ISO639_Language
         return GetISO639_2_FromLongLanguage(LanguageString);
     }
 
+
+    /// <summary>
+    /// Convert a 3-character ISO639-2 language identifier to the full language title.
+    /// </summary>
+    /// <param name="LanguageString">Should be a 3-character ISO639-2 language identifier (e.g. esp).</param>
+    /// <returns>The full language title (e.g. 'Spanish') if <c>LanguageString</c> matches a known language.
+    /// Returns <c>null</c> if no language match is found.</returns>
+    /// <remarks>Full language strings will be capitalized.</remarks>
     public static string? LongLanguage_FromISO639_2(string? LanguageString)
     {
         if (LanguageString == null) return null;

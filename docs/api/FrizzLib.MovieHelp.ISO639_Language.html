@@ -98,7 +98,9 @@
   <dl><dt>Assembly</dt><dd>MovieHelp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Class providing information about all the commonly used language codes assigned to video or subtitle files.
+Includes a list of all the ISO639-1 languages (plus Filipino), and their associated ISO639-1 and ISO639-2 codes.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -160,7 +162,10 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a 3 character ISO639-2 language string if the string provided matches a known language.
+Attempts will be made to match either a 2-character ISO639-1 code, a 3-character ISO639-2 code,
+or the full language name (e.g. 'french', 'English'). Comparisons are case-insensitive.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -170,13 +175,16 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>LanguageString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string to match to a language.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A 3 character ISO639-2 language string (in lower case) if <code>LanguageString</code> matches a known language.
+Returns <code>null</code> if no language match is found.</p>
+</dd>
   </dl>
 
 
@@ -196,7 +204,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Convert a 3-character ISO639-2 language identifier to the full language title.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -206,13 +215,16 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>LanguageString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Should be a 3-character ISO639-2 language identifier (e.g. esp).</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The full language title (e.g. 'Spanish') if <code>LanguageString</code> matches a known language.
+Returns <code>null</code> if no language match is found.</p>
+</dd>
   </dl>
 
 
@@ -221,6 +233,9 @@
 
 
 
+  <h4 class="section" id="FrizzLib_MovieHelp_ISO639_Language_LongLanguage_FromISO639_2_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Full language strings will be capitalized.</p>
+</div>
 
 
 

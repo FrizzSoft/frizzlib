@@ -1,7 +1,5 @@
 - name: Introduction
   href: index.md
-- name: Some articles
-  href: articles/toc.yml
 - name: Api Documentation
   href: api/toc.yml
   topicHref: api/index.md

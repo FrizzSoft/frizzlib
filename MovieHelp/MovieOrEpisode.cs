@@ -100,27 +100,22 @@ public class MovieOrEpisode
         System.Console.Write($"MUXing now ");
         try
         {
-            startInfo = new ProcessStartInfo(@"C:\Users\David\Local Progs\MkvToolNix\mkvmerge.exe");
-            startInfo.UseShellExecute = false;
-            startInfo.Arguments = mkvArgs;
+            startInfo = new ProcessStartInfo(@"C:\Users\David\Local Progs\MkvToolNix\mkvmerge.exe")
+            {
+                UseShellExecute = false,
+                Arguments = mkvArgs
+            };
             using (Muxer = Process.Start(startInfo))
             {
                 if (Muxer != null)
                 {
                     await Muxer.WaitForExitAsync();
-                    switch (Muxer.ExitCode)
+                    MuxerExitStatus = Muxer.ExitCode switch
                     {
-                        case 0:
-                        default:
-                            MuxerExitStatus = "MUXing successful";
-                            break;
-                        case 1:
-                            MuxerExitStatus = "MUXer completed with WARNING(S)";
-                            break;
-                        case 2:
-                            MuxerExitStatus = "ERROR - MUXing aborted";
-                            break;
-                    }
+                        1 => "MUXer completed with WARNING(S)",
+                        2 => "ERROR - MUXing aborted",
+                        _ => "MUXing successful",
+                    };
                 }
                 return MuxerExitStatus;
             }
