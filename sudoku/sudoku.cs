@@ -2,7 +2,7 @@
 
 namespace FrizzLib.Sudoku;
 
-/// <summary>Sudoku puzzle helper methods
+/// <summary>A static class with methods to help solve Sudoku puzzles.
 /// <para><u>Available methods</u></para>
 /// <list type="bullet">
 /// <item><see cref="GetCombos(int, int)"/></item>
@@ -15,7 +15,7 @@ public static class Sudoku
     /// <summary>Determines all possible combinations of digits given the sum of the digits and the number of digits.</summary>
     /// <param name="totalReqd">The sum the digits must add to.</param>
     /// <param name="cellsAvail">The number of digits to add together.</param>
-    /// <returns>A list of string, each string containing a possible combination.  The list will be empty (have zero members) if no combinations are possible within the given constraints.</returns>
+    /// <returns>A list of strings, each containing a possible combination.  The list will be empty (have zero members) if no combinations are possible with the given constraints.</returns>
     /// <remarks>In Sudoku the only digits allowed are the digits 1-9, and none may be repeated in a row, column, 3x3 block, or cage (in Sum Sudoku).</remarks>
     public static List<string> GetCombos(int totalReqd, int cellsAvail) => GetCombos(totalReqd, cellsAvail, 1);
 

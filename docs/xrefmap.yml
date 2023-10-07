@@ -639,3 +639,47 @@ references:
   isSpec: "True"
   fullName: FrizzLib.MovieHelp.SubtitleLanguageComparer.GetHashCode
   nameWithType: SubtitleLanguageComparer.GetHashCode
+- uid: FrizzLib.Sudoku
+  name: FrizzLib.Sudoku
+  href: api/FrizzLib.Sudoku.html
+  commentId: N:FrizzLib.Sudoku
+  fullName: FrizzLib.Sudoku
+  nameWithType: FrizzLib.Sudoku
+- uid: FrizzLib.Sudoku.Sudoku
+  name: Sudoku
+  href: api/FrizzLib.Sudoku.Sudoku.html
+  commentId: T:FrizzLib.Sudoku.Sudoku
+  fullName: FrizzLib.Sudoku.Sudoku
+  nameWithType: Sudoku
+- uid: FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits(System.Collections.Generic.List{System.String},System.String)
+  name: FilterOutCombosWithTheseDigits(List<string>, string)
+  href: api/FrizzLib.Sudoku.Sudoku.html#FrizzLib_Sudoku_Sudoku_FilterOutCombosWithTheseDigits_System_Collections_Generic_List_System_String__System_String_
+  commentId: M:FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits(System.Collections.Generic.List{System.String},System.String)
+  name.vb: FilterOutCombosWithTheseDigits(List(Of String), String)
+  fullName: FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits(System.Collections.Generic.List<string>, string)
+  fullName.vb: FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits(System.Collections.Generic.List(Of String), String)
+  nameWithType: Sudoku.FilterOutCombosWithTheseDigits(List<string>, string)
+  nameWithType.vb: Sudoku.FilterOutCombosWithTheseDigits(List(Of String), String)
+- uid: FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits*
+  name: FilterOutCombosWithTheseDigits
+  href: api/FrizzLib.Sudoku.Sudoku.html#FrizzLib_Sudoku_Sudoku_FilterOutCombosWithTheseDigits_
+  commentId: Overload:FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits
+  isSpec: "True"
+  fullName: FrizzLib.Sudoku.Sudoku.FilterOutCombosWithTheseDigits
+  nameWithType: Sudoku.FilterOutCombosWithTheseDigits
+- uid: FrizzLib.Sudoku.Sudoku.GetCombos(System.Int32,System.Int32)
+  name: GetCombos(int, int)
+  href: api/FrizzLib.Sudoku.Sudoku.html#FrizzLib_Sudoku_Sudoku_GetCombos_System_Int32_System_Int32_
+  commentId: M:FrizzLib.Sudoku.Sudoku.GetCombos(System.Int32,System.Int32)
+  name.vb: GetCombos(Integer, Integer)
+  fullName: FrizzLib.Sudoku.Sudoku.GetCombos(int, int)
+  fullName.vb: FrizzLib.Sudoku.Sudoku.GetCombos(Integer, Integer)
+  nameWithType: Sudoku.GetCombos(int, int)
+  nameWithType.vb: Sudoku.GetCombos(Integer, Integer)
+- uid: FrizzLib.Sudoku.Sudoku.GetCombos*
+  name: GetCombos
+  href: api/FrizzLib.Sudoku.Sudoku.html#FrizzLib_Sudoku_Sudoku_GetCombos_
+  commentId: Overload:FrizzLib.Sudoku.Sudoku.GetCombos
+  isSpec: "True"
+  fullName: FrizzLib.Sudoku.Sudoku.GetCombos
+  nameWithType: Sudoku.GetCombos
