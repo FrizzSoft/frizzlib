@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLI", "CLI\CLI.csproj", "{8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieHelp", "MovieHelp\MovieHelp.csproj", "{763A15E8-5A11-4639-9038-5FA3D9DFC862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sudoku", "sudoku\sudoku.csproj", "{A40CB244-5D92-4AA1-97B0-94D44288C728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{763A15E8-5A11-4639-9038-5FA3D9DFC862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763A15E8-5A11-4639-9038-5FA3D9DFC862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763A15E8-5A11-4639-9038-5FA3D9DFC862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40CB244-5D92-4AA1-97B0-94D44288C728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40CB244-5D92-4AA1-97B0-94D44288C728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40CB244-5D92-4AA1-97B0-94D44288C728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40CB244-5D92-4AA1-97B0-94D44288C728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
