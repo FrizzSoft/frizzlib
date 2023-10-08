@@ -26,12 +26,7 @@ public static class Sudoku
     /// <remarks>In Sum Sudoku some digits may not be allowed in a cage due to the fact they already appear in an intersecting column, row or 3x3 block.</remarks>
     public static List<string> FilterOutCombosWithTheseDigits(List<string> Combos, string nonAllowedDigits)
     {
-        List<string> temp = new();
-        foreach (string s in Combos)
-        {
-            if (!Regex.IsMatch(s, ".*[" + nonAllowedDigits + "].*")) temp.Add(s);
-        }
-        return temp;
+        return Combos.Where(i => !nonAllowedDigits.Any(j => i.Contains(j))).ToList<string>();
     }
     #endregion
 
