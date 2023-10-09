@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/David/OneDrive/Source Code/VS Code/FrizzLib/docFX",
+  "source_base_path": "C:/Users/David/OneDrive/Source Code/VS Code/FrizzLib/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -139,6 +139,16 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Frizz.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Frizz.png"
         }
       },
       "version": ""

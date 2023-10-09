@@ -74,6 +74,23 @@ public static class CLI
     /// Starts a CLI 'Progress bar' that outputs a period to the console at regular intervals.
     /// </summary>
     /// <param name="msInterval">The interval (in milliseconds).</param>
+    /// <remarks>
+    /// A progress bar can be useful when waiting for an async method to return.
+    /// It indicates to the user that the program is still running and has not hung.
+    /// </remarks>
+    /// <example>
+    /// The following code starts an async method then starts a progress bar which
+    /// outputs a period to the console every half a second to indicate progress. When the
+    /// async method completes, <c>status.Result</c> will become available, is output to the
+    /// console, and the progress bar is stopped.
+    /// <code>
+    ///   Task&lt;string&gt; status = MovieOrEpisode.MuxThisAsync(MkvMergeCommand);
+    ///   CLI.ProgressBar_Start(500);
+    ///   Console.WriteLine($"\n{status.Result}");  // status.Result blocks thread until Task completes
+    ///   CLI.ProgressBar_Stop();
+    /// </code>
+    /// </example>
+
     public static void ProgressBar_Start(int msInterval)
     {
         if (timer != null) timer.Stop();

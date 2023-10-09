@@ -100,7 +100,7 @@
 
   <div class="markdown summary"><p>Static class with methods that allow the user to select a folder using the Command Line Interface.</p>
 <p><u>Available methods</u></p>
-<ul><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder">PickFolder()</a> - Prompt user to pick a folder, with initial folder listed being the UserProfile folder.</li><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder_System_String_">PickFolder(string)</a> - Prompt user to pick a folder, with parameter <code>InitialPath</code> being the first folder listed.</li></ul>
+<ul><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder">PickFolder()</a> - Prompt user to pick a folder, with initial folder listed being the UserProfile folder.</li><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFolder_System_String_">PickFolder(string)</a> - Prompt user to pick a folder, specifying the initial folder to display.</li><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile">PickFile()</a> - Prompts user to pick a file, with initial folder listed being the UserProfile folder.</li><li><a class="xref" href="FrizzLib.CLI.Pickers.Pickers.html#FrizzLib_CLI_Pickers_Pickers_PickFile_System_String_">PickFile(string)</a> - Prompts user to pick a file, specifying the initial folder to display.</li></ul>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -163,7 +163,7 @@
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Prompts user to pick a folder. When called with no arguments, listing starts in the UserProfile folder.</p>
+  <div class="markdown level1 summary"><p>Prompts user to pick a file. When called with no arguments, listing starts in the UserProfile folder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -175,7 +175,7 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
-    <dd><p>A <code>DirectoryInfo</code> representing the folder picked, or null if no folder picked.</p>
+    <dd><p>A <code>FileInfo</code> representing the file picked, or null if no file was picked.</p>
 </dd>
   </dl>
 
@@ -196,7 +196,7 @@
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Prompts user to pick a folder, specifying the initial folder to display.</p>
+  <div class="markdown level1 summary"><p>Prompts user to pick a file, specifying the initial folder to display.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -216,7 +216,7 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
-    <dd><p>A <code>DirectoryInfo</code> representing the folder picked, or null if no folder picked.</p>
+    <dd><p>A <code>FileInfo</code> representing the file picked, or null if no file was picked.</p>
 </dd>
   </dl>
 
@@ -237,7 +237,7 @@
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Pick a folder, with the initial directory being %userprofile%</p>
+  <div class="markdown level1 summary"><p>Pick a folder, with the initial directory being %userprofile%.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -249,7 +249,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
-    <dd></dd>
+    <dd><p>A <code>DirectoryInfo</code> representing the folder picked, or null if no folder was picked.</p>
+</dd>
   </dl>
 
 
@@ -289,7 +290,7 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
-    <dd><p>A <code>DirectoryInfo</code> representing the folder picked, or null if no folder picked.</p>
+    <dd><p>A <code>DirectoryInfo</code> representing the folder picked, or null if no folder was picked.</p>
 </dd>
   </dl>
 

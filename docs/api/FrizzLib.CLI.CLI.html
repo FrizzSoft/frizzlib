@@ -184,7 +184,21 @@
 
 
 
+  <h4 class="section" id="FrizzLib_CLI_CLI_ProgressBar_Start_System_Int32__examples">Examples</h4>
+  <p>The following code starts an async method then starts a progress bar which
+outputs a period to the console every half a second to indicate progress. When the
+async method completes, <code>status.Result</code> will become available, is output to the
+console, and the progress bar is stopped.</p>
+<pre><code class="lang-csharp">Task&lt;string&gt; status = MovieOrEpisode.MuxThisAsync(MkvMergeCommand);
+CLI.ProgressBar_Start(500);
+Console.WriteLine($"\n{status.Result}");  // status.Result blocks thread until Task completes
+CLI.ProgressBar_Stop();</code></pre>
 
+
+  <h4 class="section" id="FrizzLib_CLI_CLI_ProgressBar_Start_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A progress bar can be useful when waiting for an async method to return.
+It indicates to the user that the program is still running and has not hung.</p>
+</div>
 
 
 

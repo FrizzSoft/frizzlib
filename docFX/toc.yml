@@ -1,5 +1,5 @@
-- name: Introduction
+- name: FrizzSoft
   href: index.md
-- name: Api Documentation
+- name: FrizzLib Api Documentation
   href: api/toc.yml
   topicHref: api/index.md

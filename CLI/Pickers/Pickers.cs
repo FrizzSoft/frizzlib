@@ -8,7 +8,9 @@ namespace FrizzLib.CLI.Pickers;
 /// <para><u>Available methods</u></para>
 /// <list type="bullet">
 /// <item><see cref="PickFolder()"/> - Prompt user to pick a folder, with initial folder listed being the UserProfile folder.</item>
-/// <item><see cref="PickFolder(string)"/> - Prompt user to pick a folder, with parameter <c>InitialPath</c> being the first folder listed.</item>
+/// <item><see cref="PickFolder(string)"/> - Prompt user to pick a folder, specifying the initial folder to display.</item>
+/// <item><see cref="PickFile()"/> - Prompts user to pick a file, with initial folder listed being the UserProfile folder.</item>
+/// <item><see cref="PickFile(string)"/> - Prompts user to pick a file, specifying the initial folder to display.</item>
 /// </list>
 /// </summary>
 public static class Pickers
@@ -41,19 +43,19 @@ public static class Pickers
     }
 
     /// <summary>
-    /// Prompts user to pick a folder. When called with no arguments, listing starts in the UserProfile folder.
+    /// Prompts user to pick a file. When called with no arguments, listing starts in the UserProfile folder.
     /// </summary>
-    /// <returns>A <c>DirectoryInfo</c> representing the folder picked, or null if no folder picked.</returns>
+    /// <returns>A <c>FileInfo</c> representing the file picked, or null if no file was picked.</returns>
     public static FileInfo? PickFile()
     {
         return PickFile(initialPath);
     }
 
     /// <summary>
-    /// Prompts user to pick a folder, specifying the initial folder to display.
+    /// Prompts user to pick a file, specifying the initial folder to display.
     /// </summary>
     /// <param name="InitialPath"> - the initial folder to display</param>
-    /// <returns>A <c>DirectoryInfo</c> representing the folder picked, or null if no folder picked.</returns>
+    /// <returns>A <c>FileInfo</c> representing the file picked, or null if no file was picked.</returns>
     public static FileInfo? PickFile(string InitialPath)
     {
         FileSystemInfo_Picker fsiPicker = new()
@@ -149,9 +151,9 @@ public static class Pickers
     }
 
     /// <summary>
-    /// Pick a folder, with the initial directory being %userprofile%
+    /// Pick a folder, with the initial directory being %userprofile%.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>A <c>DirectoryInfo</c> representing the folder picked, or null if no folder was picked.</returns>
     public static DirectoryInfo? PickFolder()
     {
         return PickFolder(initialPath);
@@ -161,7 +163,7 @@ public static class Pickers
     /// Prompts user to pick a folder, specifying the initial folder to display.
     /// </summary>
     /// <param name="InitialPath"> - the initial folder to display</param>
-    /// <returns>A <c>DirectoryInfo</c> representing the folder picked, or null if no folder picked.</returns>
+    /// <returns>A <c>DirectoryInfo</c> representing the folder picked, or null if no folder was picked.</returns>
     public static DirectoryInfo? PickFolder(string InitialPath)
     {
         DirectoryInfo_Picker folderPicker = new()
