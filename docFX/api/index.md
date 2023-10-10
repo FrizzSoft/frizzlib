@@ -12,6 +12,3 @@ The most useful namespace is probably FrizzLib.CLI.Pickers.  This has a class ca
 These methods provide command-line functionality similar to that found in GUI equivalents such as Microsoft.Win32.OpenFileDialog and System.Windows.Forms.FolderBrowserDialog classes.  They enable you to browse through a directory structure in order to select a file or a folder respectively.
 
 If you are just writing a quick console application and need to browse for a file or a folder, these classes may be helpful.
-
-Refer to the documentation site for this library (hosted on GitHub Pages) by clicking this link:   
-[FrizzLib Documentation Site](https://frizzsoft.github.io/frizzlib)
