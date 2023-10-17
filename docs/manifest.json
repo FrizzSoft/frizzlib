@@ -55,6 +55,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.DayOfWeek_Long.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.DayOfWeek_Long.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.DaysOfWeek_Short.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.DaysOfWeek_Short.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.ExtensionMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.MonthsOfYear_Long.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.MonthsOfYear_Long.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.MonthsOfYear_Short.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.MonthsOfYear_Short.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.PrimeNumberGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.PrimeNumberGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FrizzLib.Misc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FrizzLib.Misc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FrizzLib.MovieHelp.FilterByType.yml",
       "output": {
         ".html": {
